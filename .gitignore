@@ -1,0 +1,25 @@
+# Carpetas de compilación y binarios
+/Debug/
+/Release/
+/x64/
+
+# Archivos de la solución
+*.user
+*.ncb
+*.suo
+*.sln.docstates
+
+# Archivos de Visual Studio, caché e IDE
+.vs/
+**/ipch/
+*.ipch
+*.log
+
+# Archivos de cabecera precompilados
+*.pch
+
+# Ejecutables y archivos de depuración
+*.exe
+*.dll
+*.obj
+*.pdb

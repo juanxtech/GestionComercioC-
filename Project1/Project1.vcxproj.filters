@@ -1,129 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\main.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\menu_clientes.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\menu_equipos.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\menu_vendedores.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\menu_venta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\archivo_cliente.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\archivo_detalle_venta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\archivo_equipo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\archivo_vendedor.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\archivo_venta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cliente.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\detalle_venta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Equipo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\fecha.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\menu_reportes_informes.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\persona.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\vendedores.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\venta.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\menu_clientes.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\archivo_cliente.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\menu_equipos.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\archivo_detalle_venta.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\menu_vendedores.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\archivo_equipo.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\menu_ventas.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\archivo_vendedor.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\archivo_cliente.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\archivo_venta.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\archivo_detalle_venta.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\cliente.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\archivo_equipo.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\detalle_venta.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\archivo_vendedor.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\equipo.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\archivo_venta.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\fecha.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\cliente.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\menu_clientes.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\detalle_venta.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\menu_equipos.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\equipo.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\menu_reportes_informes.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\fecha.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\menu_vendedores.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\menu_reportes_informes.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\menu_ventas.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\persona.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\persona.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\vendedores.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\vendedores.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
-    <ClInclude Include="..\venta.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="..\include\venta.h">
+      <Filter>Encabezados</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Detalle_ventas.dat" />
+    <None Include="..\include\LICENSE" />
+    <None Include="..\include\Detalle_ventas.dat">
+      <Filter>Encabezados</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Encabezados">
+      <UniqueIdentifier>{52f4d2d8-772d-4f86-8e85-76a630c9a958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{fcf88157-cc9a-435b-b294-b7e4a5c019b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\archivo_cliente.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\archivo_detalle_venta.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\archivo_equipo.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\archivo_vendedor.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\archivo_venta.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cliente.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\detalle_venta.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Equipo.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fecha.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_clientes.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_equipos.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_reportes_informes.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_vendedores.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_venta.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\persona.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\vendedores.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\venta.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

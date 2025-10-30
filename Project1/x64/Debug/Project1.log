@@ -1,1 +1,59 @@
-﻿C:\Users\Juan\Desktop\Facultad\Programacion III\Tutoriales Campus\Project1\Project1\Project1.vcxproj : error MSB4025: No se pudo cargar el archivo del proyecto. No se pudo encontrar el archivo 'C:\Users\Juan\Desktop\Facultad\Programacion III\Tutoriales Campus\Project1\Project1\Project1.vcxproj'.
+﻿  archivo_cliente.cpp
+C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+  (compilando archivo de origen "../src/archivo_cliente.cpp")
+      C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+C:\Users\Juan\Desktop\gestionC++\src\archivo_cliente.cpp(21,24): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  archivo_detalle_venta.cpp
+C:\Users\Juan\Desktop\gestionC++\src\archivo_detalle_venta.cpp(5,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+      C:\Users\Juan\Desktop\gestionC++\src\archivo_detalle_venta.cpp(5,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+C:\Users\Juan\Desktop\gestionC++\src\archivo_detalle_venta.cpp(21,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  archivo_equipo.cpp
+C:\Users\Juan\Desktop\gestionC++\src\archivo_equipo.cpp(5,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+      C:\Users\Juan\Desktop\gestionC++\src\archivo_equipo.cpp(5,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+C:\Users\Juan\Desktop\gestionC++\src\archivo_equipo.cpp(41,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Juan\Desktop\gestionC++\src\archivo_equipo.cpp(221,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  archivo_vendedor.cpp
+  archivo_venta.cpp
+C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+  (compilando archivo de origen "../src/archivo_venta.cpp")
+      C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+C:\Users\Juan\Desktop\gestionC++\src\archivo_venta.cpp(22,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Juan\Desktop\gestionC++\src\archivo_venta.cpp(205,44): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Juan\Desktop\gestionC++\src\archivo_venta.cpp(255,45): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  cliente.cpp
+C:\Users\Juan\Desktop\gestionC++\src\cliente.cpp(5,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+      C:\Users\Juan\Desktop\gestionC++\src\cliente.cpp(5,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+  detalle_venta.cpp
+  Equipo.cpp
+  fecha.cpp
+  main.cpp
+  menu_clientes.cpp
+  menu_equipos.cpp
+  menu_reportes_informes.cpp
+  menu_vendedores.cpp
+  menu_venta.cpp
+C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+  (compilando archivo de origen "../src/menu_venta.cpp")
+      C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+  persona.cpp
+  vendedores.cpp
+  venta.cpp
+C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+  (compilando archivo de origen "../src/venta.cpp")
+      C:\Users\Juan\Desktop\gestionC++\include\archivo_venta.h(4,9):
+      '_CRT_SECURE_NO_WARNINGS' declarado previamente en la línea de comandos
+  
+  Generando código...
+  Project1.vcxproj -> C:\Users\Juan\Desktop\gestionC++\x64\Debug\Project1.exe

@@ -18,6 +18,49 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\archivo_cliente.h" />
+    <ClInclude Include="..\include\archivo_detalle_venta.h" />
+    <ClInclude Include="..\include\archivo_equipo.h" />
+    <ClInclude Include="..\include\archivo_vendedor.h" />
+    <ClInclude Include="..\include\archivo_venta.h" />
+    <ClInclude Include="..\include\cliente.h" />
+    <ClInclude Include="..\include\detalle_venta.h" />
+    <ClInclude Include="..\include\equipo.h" />
+    <ClInclude Include="..\include\fecha.h" />
+    <ClInclude Include="..\include\menu_clientes.h" />
+    <ClInclude Include="..\include\menu_equipos.h" />
+    <ClInclude Include="..\include\menu_reportes_informes.h" />
+    <ClInclude Include="..\include\menu_vendedores.h" />
+    <ClInclude Include="..\include\menu_ventas.h" />
+    <ClInclude Include="..\include\persona.h" />
+    <ClInclude Include="..\include\vendedores.h" />
+    <ClInclude Include="..\include\venta.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\Detalle_ventas.dat" />
+    <None Include="..\include\LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\archivo_cliente.cpp" />
+    <ClCompile Include="..\src\archivo_detalle_venta.cpp" />
+    <ClCompile Include="..\src\archivo_equipo.cpp" />
+    <ClCompile Include="..\src\archivo_vendedor.cpp" />
+    <ClCompile Include="..\src\archivo_venta.cpp" />
+    <ClCompile Include="..\src\cliente.cpp" />
+    <ClCompile Include="..\src\detalle_venta.cpp" />
+    <ClCompile Include="..\src\Equipo.cpp" />
+    <ClCompile Include="..\src\fecha.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\menu_clientes.cpp" />
+    <ClCompile Include="..\src\menu_equipos.cpp" />
+    <ClCompile Include="..\src\menu_reportes_informes.cpp" />
+    <ClCompile Include="..\src\menu_vendedores.cpp" />
+    <ClCompile Include="..\src\menu_venta.cpp" />
+    <ClCompile Include="..\src\persona.cpp" />
+    <ClCompile Include="..\src\vendedores.cpp" />
+    <ClCompile Include="..\src\venta.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -102,6 +145,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Juan\Desktop\gestionC++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,48 +166,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\archivo_cliente.cpp" />
-    <ClCompile Include="..\archivo_detalle_venta.cpp" />
-    <ClCompile Include="..\archivo_equipo.cpp" />
-    <ClCompile Include="..\archivo_vendedor.cpp" />
-    <ClCompile Include="..\archivo_venta.cpp" />
-    <ClCompile Include="..\cliente.cpp" />
-    <ClCompile Include="..\detalle_venta.cpp" />
-    <ClCompile Include="..\Equipo.cpp" />
-    <ClCompile Include="..\fecha.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\menu_clientes.cpp" />
-    <ClCompile Include="..\menu_equipos.cpp" />
-    <ClCompile Include="..\menu_reportes_informes.cpp" />
-    <ClCompile Include="..\menu_vendedores.cpp" />
-    <ClCompile Include="..\menu_venta.cpp" />
-    <ClCompile Include="..\persona.cpp" />
-    <ClCompile Include="..\vendedores.cpp" />
-    <ClCompile Include="..\venta.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\archivo_cliente.h" />
-    <ClInclude Include="..\archivo_detalle_venta.h" />
-    <ClInclude Include="..\archivo_equipo.h" />
-    <ClInclude Include="..\archivo_vendedor.h" />
-    <ClInclude Include="..\archivo_venta.h" />
-    <ClInclude Include="..\cliente.h" />
-    <ClInclude Include="..\detalle_venta.h" />
-    <ClInclude Include="..\equipo.h" />
-    <ClInclude Include="..\fecha.h" />
-    <ClInclude Include="..\menu_clientes.h" />
-    <ClInclude Include="..\menu_equipos.h" />
-    <ClInclude Include="..\menu_reportes_informes.h" />
-    <ClInclude Include="..\menu_vendedores.h" />
-    <ClInclude Include="..\menu_ventas.h" />
-    <ClInclude Include="..\persona.h" />
-    <ClInclude Include="..\vendedores.h" />
-    <ClInclude Include="..\venta.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Detalle_ventas.dat" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

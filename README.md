@@ -1,19 +1,19 @@
-# 💻 Gestión de Comercio de Informática (Proyecto C++)
+# Gestión de Comercio de Informática (Proyecto C++)
 
-Este proyecto es una aplicación de consola desarrollada en **C++** para la **gestión completa de una tienda de informática**.  
-Fue creado como **proyecto final** para la asignatura **Programación II (Segundo Cuatrimestre)** de la universidad.
+Este proyecto es una aplicación de consola desarrollada en C++ para la gestión completa de una tienda de informática.  
+Fue creado como proyecto final para la asignatura Programación II (Segundo Cuatrimestre) de la universidad.
 
 El objetivo principal fue **aplicar conceptos avanzados de programación estructurada**, manejo de memoria (punteros y referencias), **modularización** y **persistencia de datos** mediante manejo de **archivos binarios**.
 
 ---
 
-## 🌟 Características Principales
+## Características Principales
 
-El sistema implementa la funcionalidad **ABML (Alta, Baja, Modificación, Listado)** para las principales entidades del negocio, asegurando la **integridad referencial** entre ellas.
+El sistema implementa la funcionalidad **ABML** *(Alta, Baja, Modificación, Listado)* para las principales entidades del negocio, asegurando la integridad referencial entre ellas.
 
 ---
 
-## 🧩 Entidades y Módulos
+## Entidades y Módulos
 
 | **Módulo** | **Funcionalidades Clave** |
 |-------------|-----------------------------|
@@ -24,7 +24,7 @@ El sistema implementa la funcionalidad **ABML (Alta, Baja, Modificación, Listad
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Lenguaje:** C++ (Estándar C++11/C++14)  
 - **Paradigma:** Programación Estructurada y Modular  
@@ -33,7 +33,7 @@ El sistema implementa la funcionalidad **ABML (Alta, Baja, Modificación, Listad
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 El proyecto está modularizado para **separar la lógica de negocio** (archivos `.cpp`) de las **interfaces de definición** (archivos `.h`).
 
@@ -42,39 +42,38 @@ El proyecto está modularizado para **separar la lógica de negocio** (archivos 
 | `src/` | Archivos de implementación (`.cpp`). Contiene la lógica de las clases y las funciones principales de los menús. |
 | `include/` | Archivos de encabezado (`.h`). Contiene las definiciones de las clases (`Persona`, `Cliente`, `Vendedor`, `Equipo`, `Venta`) y las interfaces de las funciones. |
 | `Project1/` | Archivos de solución de Visual Studio (`.sln`, `.vcxproj`). |
-| `data/` | *(Recomendado)* Carpeta para almacenar los archivos binarios de la aplicación (`clientes.dat`, `ventas.dat`, etc.). |
 | `.gitignore` | Reglas para ignorar archivos generados por el compilador (como `.exe`, `.obj`, `.ipch`, `.vs`). |
 
 ---
 
-## 🚀 Cómo Compilar y Ejecutar
+## Cómo Compilar y Ejecutar
 
-### 🧰 Requisitos
+### Requisitos
 - Un compilador de C++ (ej. **GCC**, **Clang** o el **compilador de Visual Studio**)  
 - Un IDE compatible (**Visual Studio 2019** o posterior recomendado)
 
-### 🔧 Instrucciones
+### Instrucciones
 
-#### 1️⃣ Clonar el repositorio:
+#### Clonar el repositorio:
 ```bash
 git clone https://github.com/juanxtech/GestionComercioC-.git
 cd GestionComercioC-
 ```
-#### 2️⃣ Abrir en Visual Studio:
+#### Abrir en Visual Studio:
 - Abrir el archivo de solución Project1/Project1.sln
 
 - Asegurarse de que el compilador esté configurado en modo Debug o Release
 
 - Presionar F5 o seleccionar Depurar > Iniciar sin depurar para ejecutar
 
-#### 3️⃣ Compilar con MinGW/GCC (desde consola):
+#### Compilar con MinGW/GCC (desde consola):
 ```bash
 g++ src/*.cpp -o gestion_comercio
 ./gestion_comercio
 ```
 
-### 📚 Menús Detallados (Funcionalidad ABML)
-#### 👥 Menú Clientes
+### Menús Detallados (Funcionalidad ABML)
+#### Menú Clientes
 - Ingresar Cliente
 - Baja Cliente (lógica de borrado suave/inactivación)
 - Alta Cliente (reactivación)
@@ -84,13 +83,13 @@ g++ src/*.cpp -o gestion_comercio
 - Buscar Cliente por ID
 - Cliente que más recaudó
 
-#### 🧑‍💼 Menú Vendedores
+#### Menú Vendedores
 - Alta Vendedor
 - Baja Vendedor
 - Modificar Vendedor
 - Listar Vendedores
 
-#### 💻 Menú Equipos
+#### Menú Equipos
 - Alta Equipo
 - Baja Equipo
 - Modificar Equipo
@@ -99,7 +98,7 @@ g++ src/*.cpp -o gestion_comercio
 - Consultar equipos disponibles (Stock > 0)
 - Informe equipos más vendidos
 
-#### 💰 Menú Ventas
+#### Menú Ventas
 - Agregar Venta (proceso que actualiza el stock de equipos)
 - Bajar Venta (anular)
 - Modificar Venta
